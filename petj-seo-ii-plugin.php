@@ -1,13 +1,16 @@
 <?php
-/**
- * Add SEO tags to a WordPress Theme
- * ( where: functions.php )
- *
- * Add stuff via the wp_head() hook
- * Don't hardcode the tag content
- * The best practise is to use the bloginfo()
- * url: https://developer.wordpress.org/reference/functions/bloginfo/
- */
+/*
+Plugin Name: SEO II Exercise
+Plugin URI:  https://github.com/asathoor/SEO-II-exercise
+Description: SEO enhancements to the theader
+Version:     20170325
+Author:      Per Thykjaer Jensen
+Author URI:  http://multimusen.dk
+License:     GPL2
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: petj-seo-ii
+Domain Path: /languages
+*/
 add_action('wp_head','petj_add_my_metatags'); // add vua wp_head()
 
 function petj_add_my_metatags(){
