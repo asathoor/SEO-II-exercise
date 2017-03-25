@@ -11,7 +11,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: petj-seo-ii
 Domain Path: /languages
 */
-add_action('wp_head','petj_seo_ii'); // add vua wp_head()
+add_action('wp_head','petj_seo_ii'); // add via wp_head()
 
 function petj_seo_ii(){
 
