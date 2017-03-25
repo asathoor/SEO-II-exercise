@@ -20,6 +20,8 @@ function petj_seo_ii(){
 	$keywords = "WordPress, Tutorials, PHP, MySQL, Linux";
 	$author_email = "petj@eaaa.dk";
 	$image = "http://multimusen.dk/wp-content/uploads/cropped-multimusen-100x89.png";
+	$width = 100;
+	$height = 80;
 	?>
 
 	<!-- SEO ( from the petj_seo_ii plugin ) -->
@@ -55,7 +57,13 @@ function petj_seo_ii(){
 	<meta property="og:description" content="<?php bloginfo( 'description' ); ?>" />
 	<meta property="twitter:title" content="<?php bloginfo( 'name' ); ?>" />
 	<meta property="twitter:description" content="<?php bloginfo( 'description' ); ?>" />
+	
+	<!-- image -->
 	<meta property="og:image" content="<?php echo $image; ?>" />
+	<!-- meta property="og:image:secure_url" content="<?php echo $image; ?>" / -->
+	<meta property="og:image:type" content="image/png" />
+	<meta property="og:image:width" content="<?php echo $width; ?>" />
+	<meta property="og:image:height" content="<?php echo $height; ?>" />
 
 	<?php
 }
