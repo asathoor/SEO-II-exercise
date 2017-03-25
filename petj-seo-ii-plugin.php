@@ -18,6 +18,7 @@ function petj_seo_ii(){
 	// store repeated info in variables
 	$author = "Per Jensen";
 	$keywords = "WordPress, Tutorials, PHP, MySQL, Linux";
+	$author_email = "petj@eaaa.dk";
 	?>
 
 	<!-- SEO ( from the petj_seo_ii plugin ) -->
@@ -30,7 +31,7 @@ function petj_seo_ii(){
 	<!-- it's better to use wp standards than to hardcode information -->
 	<meta name="resource-type" content="document" />
 	<meta name="author" content="<?php echo $author; ?>" />
-	<meta name="contact" content="petj@eaaa.dk" />
+	<meta name="contact" content="<?php echo $author; ?>" />
 	<meta name="copyright" content="Copyright (c) GPLv2 2017 <?php echo $author; ?>" />
 	<meta name="distributor" content="<?php bloginfo( 'name' ); ?>" />
 	<meta name="robots" content="Index" />
