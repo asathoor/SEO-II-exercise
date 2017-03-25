@@ -45,7 +45,8 @@ So don't use or accept hardcoded stuff like:
 
 ## WordPress on Meta-tags
 
-* [See this page](https://codex.wordpress.org/Meta_Tags_in_WordPress)
+* See [Meta Tags in WordPress](https://codex.wordpress.org/Meta_Tags_in_WordPress)
+* And [Complete Guide to SEO Metatags](https://netotraffic.com/meta-tag-seo/)
 
 The page lists these common Meta tags:
 
@@ -62,6 +63,7 @@ giving birth to puppies." />
 <meta name="keywords" content="stories, tales, harriet, smith, 
 harriet smith, storytelling, day, life, dog, birth, puppies, happy" />
 ~~~~
+
 
 ## Advanced Meta tags
 
