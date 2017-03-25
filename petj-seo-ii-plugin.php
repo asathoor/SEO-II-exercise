@@ -19,6 +19,7 @@ function petj_seo_ii(){
 	$author = "Per Jensen";
 	$keywords = "WordPress, Tutorials, PHP, MySQL, Linux";
 	$author_email = "petj@eaaa.dk";
+	$image = "http://multimusen.dk/wp-content/uploads/cropped-multimusen-100x89.png";
 	?>
 
 	<!-- SEO ( from the petj_seo_ii plugin ) -->
@@ -40,20 +41,21 @@ function petj_seo_ii(){
 	<meta name="rating" content="General" />
 
 	<!-- DC Meta-data, url: http://dublincore.org/documents/dcmi-terms/ -->
-	<!-- From here the info is hardcoded. Edit to wp standards, please -->
-	<meta name="dcterms.title" content="Multimusen.dk " />
-	<meta name="dcterms.contributor" content="Per Thykjaer Jensen" />
-	<meta name="dcterms.creator" content="Per Thykjaer Jensen" />
-	<meta name="dcterms.publisher" content="Multimusen" />
-	<meta name="dcterms.description" content="Tips and tutorials for multimedia developers." />
+	<meta name="dcterms.title" content="<?php bloginfo( 'name' ); ?>" />
+	<meta name="dcterms.contributor" content="<?php echo $author; ?>" />
+	<meta name="dcterms.creator" content="<?php echo $author; ?>" />
+	<meta name="dcterms.publisher" content="<?php bloginfo( 'name' ); ?>" />
+	<meta name="dcterms.description" content="<?php bloginfo( 'description' ); ?>" />
 	<meta name="dcterms.rights" content="GPLv3" />
+	<dcterms:hasPart rdf:resource="<?php echo $image; ?>" />
 
 	<!-- Open Graph Protocol, url: http://ogp.me/ -->
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Multimusen.dk " />
-	<meta property="og:description" content="Tips and tutorials for multimedia developers." />
-	<meta property="twitter:title" content="Multimusen.dk " />
-	<meta property="twitter:description" content="Tips and tutorials for multimedia developers." />
+	<meta property="og:title" content="<?php bloginfo( 'name' ); ?>" />
+	<meta property="og:description" content="<?php bloginfo( 'description' ); ?>" />
+	<meta property="twitter:title" content="<?php bloginfo( 'name' ); ?>" />
+	<meta property="twitter:description" content="<?php bloginfo( 'description' ); ?>" />
+	<meta property="og:image" content="<?php echo $image; ?>" />
 
 	<?php
 }
