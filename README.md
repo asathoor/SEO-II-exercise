@@ -4,8 +4,9 @@ WordPress SEO Exercise
 ## Branch: the SEO II Plugin
 
 **In functions.php you can add new functionalities to a theme.
-If you want to incorporate the change in your WordPress installation, 
-you need a plugin.**
+But functions.php only affect the theme.
+If you want to use the SEO changes regardless of the theme
+use a plugin. Now the code is changed to a WP plugin.**
 
 This addition to functions.php will add some SEO tags via the wp_head() hook.
 
