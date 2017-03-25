@@ -11,17 +11,16 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: petj-seo-ii
 Domain Path: /languages
 */
-add_action('wp_head','petj_add_my_metatags'); // add vua wp_head()
+add_action('wp_head','petj_seo_ii'); // add vua wp_head()
 
-function petj_add_my_metatags(){
+function petj_seo_ii(){
 
 	// store repeated info in variables
 	$author = "Per Jensen";
 	$keywords = "WordPress, Tutorials, PHP, MySQL, Linux";
 	?>
 
-	<!-- SEO ( from my function ) -->
-
+	<!-- SEO ( from the petj_seo_ii plugin ) -->
 	<!-- On WordPress and metatags, see @url: https://codex.wordpress.org/Meta_Tags_in_WordPress -->
 	
 	<!-- name via bloginfo -->

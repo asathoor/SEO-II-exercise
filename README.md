@@ -8,7 +8,6 @@ But functions.php only affect the theme.
 If you want to use the SEO changes regardless of the theme
 use a plugin. Now the code is changed to a WP plugin.**
 
-This addition to functions.php will add some SEO tags via the wp_head() hook.
 
 ## Important
 
@@ -16,15 +15,15 @@ Before you install the plugin, please remove the SEO-II-additions from functions
 
 ## Install
 
-Improve the SEO of your WordPress:
+1. Download the .zip file.
+2. In the WordPress Dashboard / Plugins / Add New (the button is on the top)
+3. Select and upload the .zip.
+4. Activate the plugin.
 
-* Log on your WordPress as administrator either on a localhost or online.
-* Activate a childtheme.
-* Add the code in `functions.php` to your functions.php ( don't overwrite your functions.php! )
 
 ## Finish the code
 
-The code sample is *not* up to the best practise. The informations will 
+The code sample is *not* up to the best practise.
 
 Edit the code according to WordPress best practise:
 
